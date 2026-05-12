@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <rect width="900" height="260" fill="#f6f8fa"/>
+  <style>
+    .box{fill:#ffffff;stroke:#0969da;stroke-width:2;rx:10}
+    .title{font:700 22px "Microsoft YaHei",Arial,sans-serif;fill:#1f2328}
+    .txt{font:16px "Microsoft YaHei",Arial,sans-serif;fill:#24292f}
+    .arrow{stroke:#57606a;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <text x="32" y="42" class="title">第 1 节：仓库创建与 README 组织流程</text>
+  <rect x="42" y="88" width="170" height="90" class="box"/>
+  <text x="74" y="122" class="txt">创建 Public 仓库</text>
+  <text x="74" y="150" class="txt">确认名称与描述</text>
+  <line x1="220" y1="133" x2="300" y2="133" class="arrow"/>
+  <rect x="310" y="88" width="170" height="90" class="box"/>
+  <text x="345" y="122" class="txt">初始化 README</text>
+  <text x="345" y="150" class="txt">说明仓库用途</text>
+  <line x1="488" y1="133" x2="568" y2="133" class="arrow"/>
+  <rect x="578" y="88" width="250" height="90" class="box"/>
+  <text x="615" y="122" class="txt">整理课程报告目录</text>
+  <text x="615" y="150" class="txt">方便提交与后续检查</text>
+</svg>

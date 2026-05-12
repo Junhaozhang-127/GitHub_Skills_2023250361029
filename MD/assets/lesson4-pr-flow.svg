@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <rect width="900" height="280" fill="#f6f8fa"/>
+  <style>
+    .title{font:700 22px "Microsoft YaHei",Arial,sans-serif;fill:#1f2328}
+    .txt{font:16px "Microsoft YaHei",Arial,sans-serif;fill:#24292f}
+    .branch{stroke:#0969da;stroke-width:5;fill:none}
+    .main{stroke:#1f883d;stroke-width:5;fill:none}
+    .dot{fill:#fff;stroke:#24292f;stroke-width:3}
+  </style>
+  <text x="32" y="42" class="title">第 4 节：分支与 Pull Request 流程</text>
+  <path d="M100 185 C250 185 430 185 780 185" class="main"/>
+  <path d="M240 185 C330 85 520 85 650 185" class="branch"/>
+  <circle cx="120" cy="185" r="12" class="dot"/>
+  <circle cx="240" cy="185" r="12" class="dot"/>
+  <circle cx="450" cy="98" r="12" class="dot"/>
+  <circle cx="650" cy="185" r="12" class="dot"/>
+  <circle cx="780" cy="185" r="12" class="dot"/>
+  <text x="86" y="224" class="txt">main</text>
+  <text x="214" y="224" class="txt">创建分支</text>
+  <text x="384" y="78" class="txt">提交报告修改</text>
+  <text x="615" y="224" class="txt">发起 PR</text>
+  <text x="750" y="224" class="txt">合并</text>
+</svg>

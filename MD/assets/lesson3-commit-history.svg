@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <rect width="900" height="260" fill="#f6f8fa"/>
+  <style>
+    .title{font:700 22px "Microsoft YaHei",Arial,sans-serif;fill:#1f2328}
+    .txt{font:16px "Microsoft YaHei",Arial,sans-serif;fill:#24292f}
+    .node{fill:#0969da}
+    .line{stroke:#57606a;stroke-width:4}
+    .card{fill:#fff;stroke:#d0d7de;stroke-width:1.5;rx:8}
+  </style>
+  <text x="32" y="42" class="title">第 3 节：Commit 与版本历史</text>
+  <line x1="110" y1="145" x2="780" y2="145" class="line"/>
+  <circle cx="150" cy="145" r="13" class="node"/>
+  <circle cx="360" cy="145" r="13" class="node"/>
+  <circle cx="570" cy="145" r="13" class="node"/>
+  <circle cx="780" cy="145" r="13" class="node"/>
+  <rect x="80" y="70" width="145" height="48" class="card"/>
+  <text x="105" y="100" class="txt">创建 README</text>
+  <rect x="285" y="170" width="155" height="48" class="card"/>
+  <text x="310" y="200" class="txt">新增报告文件</text>
+  <rect x="498" y="70" width="145" height="48" class="card"/>
+  <text x="522" y="100" class="txt">更新清单</text>
+  <rect x="698" y="170" width="165" height="48" class="card"/>
+  <text x="724" y="200" class="txt">检查并提交</text>
+</svg>
