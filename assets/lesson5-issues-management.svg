@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="900" height="300" fill="#f6f8fa"/>
+  <style>
+    .title{font:700 22px "Microsoft YaHei",Arial,sans-serif;fill:#1f2328}
+    .txt{font:16px "Microsoft YaHei",Arial,sans-serif;fill:#24292f}
+    .card{fill:#fff;stroke:#8250df;stroke-width:2;rx:10}
+    .small{font:14px "Microsoft YaHei",Arial,sans-serif;fill:#57606a}
+  </style>
+  <text x="32" y="42" class="title">第 5 节：Issues 与任务管理</text>
+  <rect x="60" y="82" width="210" height="150" class="card"/>
+  <text x="92" y="118" class="txt">提出任务</text>
+  <text x="92" y="152" class="small">记录问题背景</text>
+  <text x="92" y="180" class="small">说明期望结果</text>
+  <rect x="345" y="82" width="210" height="150" class="card"/>
+  <text x="377" y="118" class="txt">跟踪处理</text>
+  <text x="377" y="152" class="small">标签、负责人</text>
+  <text x="377" y="180" class="small">评论、检查项</text>
+  <rect x="630" y="82" width="210" height="150" class="card"/>
+  <text x="662" y="118" class="txt">关闭闭环</text>
+  <text x="662" y="152" class="small">关联 PR</text>
+  <text x="662" y="180" class="small">确认任务完成</text>
+</svg>
